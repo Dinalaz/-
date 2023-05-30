@@ -1,0 +1,63 @@
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+double func(double x){
+
+if (x > 0) {
+
+return 2 - sin(x);
+
+} else {
+
+return 6 - x;
+
+}
+
+}
+
+int main() {
+
+double x = 2.5;
+
+cin >> x;
+
+double result = func(x);
+
+cout << "f(" << x << ") = " << result << endl;
+
+return 0;
+
+сам раб 2(if25)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int x;
+
+cout << "Enter integer x: ";
+
+cin >> x;
+
+int f;
+
+if (x < -2 || x > 2) {
+
+f = 2 * x;
+
+} else {
+
+f = 3 * x;
+
+}
+
+cout << "f(x) = " << f << endl;
+
+return 0;
+
+}
